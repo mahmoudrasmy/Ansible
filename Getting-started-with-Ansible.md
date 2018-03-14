@@ -1,5 +1,5 @@
 # Steps to Getting started with Ansible 
-## Step 1  install Ansible on the Control Machine
+## Step 1 - install Ansible on the Control Machine
 	
 	$sudo apt-get update
 	$ sudo apt-get install software-properties-common

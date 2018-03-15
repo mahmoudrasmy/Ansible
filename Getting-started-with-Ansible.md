@@ -11,11 +11,11 @@
  - Add the IP of Managed Node in the hosts file
 
 ## Step 3 - Prepare the key
-	-Copy the private key.pem into the control machine 
-	-$chmod 400 key.pem
+ - Copy the private key.pem into the control machine 
+ - $chmod 400 key.pem
 
 ## Step 4 - Check the connection between the control machine and the managed node
-	-To check the connection between the contol Machine and the Managed Node ==> $sudo ansible all -m ping --private-key key.pem --user=ubuntu -e 'ansible_python_interpreter=/usr/bin/python3'
+ - To check the connection between the contol Machine and the Managed Node ==> $sudo ansible all -m ping --private-key key.pem --user=ubuntu -e 'ansible_python_interpreter=/usr/bin/python3'
 
 ## Step 5 - Run Ad-hoc command command
 	-To install Nginx ==> $sudo ansible all -s -m shell -a 'apt-get install nginx -y' --private-key key.pem --user=ubuntu -e 'ansible_python_interpreter=/usr/bin/python3'

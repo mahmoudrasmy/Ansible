@@ -1,3 +1,3 @@
-| Link   | Description |
-| ------ | ------ |
-| https://serversforhackers.com/c/an-ansible-tutorial | Getting Started With Ansible |
+| Description  | Link |
+| ---- | ---- |
+| Getting Started With Ansible | https://serversforhackers.com/c/an-ansible-tutorial |

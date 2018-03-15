@@ -7,8 +7,8 @@
  - $sudo apt-get install ansible
 	
 ## Step 2 - configure the Host file
-	-configure the inventory file, you can find the default one on this location $cd /etc/ansible/hosts
-	-Add the IP of Managed Node in the hosts file
+ - configure the inventory file, you can find the default one on this location $cd /etc/ansible/hosts
+ - Add the IP of Managed Node in the hosts file
 
 ## Step 3 - Prepare the key
 	-Copy the private key.pem into the control machine 
